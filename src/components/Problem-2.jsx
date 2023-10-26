@@ -1,6 +1,12 @@
 import React from 'react';
+import React, { useState } from 'react';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
+import axios from 'axios'; 
 
 const Problem2 = () => {
+    const [showModal, setShowModal] = useState(false);
+    const [contactData, setContactData] = useState(null);
 
     return (
 
